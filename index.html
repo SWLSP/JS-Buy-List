@@ -1,0 +1,54 @@
+<html>
+
+<head lang="uk">
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div class="ui container main-container">
+    <div class="ui doubling stackable grid">
+      <div class="column eleven wide">
+        <div class="ui raised segments items-list">
+          <div class="ui segment form">
+            <div class="ui action fluid input new-item"><input type="text" placeholder="Назва товару"> <button class="ui button primary">Додати</button></div>
+          </div>
+  </div>
+  </div>
+  <div class="column five wide">
+    <div class="ui raised segments">
+      <div class="ui segment">
+        <h3>Залишилося</h3></div>
+      <div class="ui segment">
+        <div class="stats-not-bought"><span class="ui mini label stats-label"><span class="title">сч сч </span> <span class="ui mini orange circular label count">1</span></span>
+        </div>
+      </div>
+      <div class="ui segment">
+        <h3>Куплено</h3></div>
+      <div class="ui segment">
+        <div class="stats-bought"><span class="ui mini label stats-label"><span class="title">Помідори</span> <span class="ui mini orange circular label count">1</span></span><span class="ui mini label stats-label"><span class="title">Печиво</span> <span class="ui mini orange circular label count">1</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="hidden row-template">
+    <div class="ui segment item-row state-not-bought" data-class="edit-mode">
+      <div class="ui grid inner-part">
+        <div class="column four wide title-cell"><span class="title not-bought">Помідори</span> <span class="title bought">Помідори</span>
+          <div class="ui mini input title-edit"><input type="text" placeholder="Нова назва"></div>
+        </div>
+        <div class="column six wide add-buttons"><button class="circular mini ui button icon red minus-button"><i class="minus icon"></i></button> <span class="ui label count-label">1</span> <button class="circular mini ui button icon green plus-button"><i class="plus icon"></i></button></div>
+        <div
+          class="column six wide last-buttons"><button class="mini ui button buy-button">Купити</button> <button class="mini ui button unbuy-button">Не купити</button> <button class="mini ui button icon red delete-button" title="Видалити"><i class="remove icon"></i></button></div>
+    </div>
+  </div>
+  </div>
+  <div class="hidden stats-template"><span class="ui mini label stats-label"><span class="title"></span> <span class="ui mini orange circular label count">0</span></span>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
